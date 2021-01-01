@@ -9,14 +9,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio: Home</title>
+    <title>Home</title>
   </head>
-  <body style="font-family: 'Roboto', sans-serif">
+  <body
+    class="flex flex-col min-h-screen"
+    style="font-family: 'Roboto', sans-serif"
+  >
     <nav
       role="navigation"
       class="relative flex items-center justify-between h-16 text-white from-purple-600 to-yellow-600 bg-gradient-to-r"
     >
-      <a href="index.html" class="pl-6 text-3xl">MY PORTFOLIO</a>
+      <a href="index.html" class="pl-6 text-3xl font-bold">TOMMY NGO</a>
       <div class="px-4 cursor-pointer md:hidden" id="bars">
         <svg
           class="w-8 h-8"
@@ -33,15 +36,23 @@
           ></path>
         </svg>
       </div>
-      <div class="hidden md:block" id="menu">
-        <a href="./pages/about.html" class="p-4">ABOUT</a>
-        <a href="./pages/projects.html" class="p-4">PROJECTS</a>
-        <a href="resume.html" class="p-4">RESUME</a>
+      <div class="hidden pr-6 md:block" id="menu">
+        <a href="./pages/about.html" class="p-4 rounded-lg hover:bg-purple-500"
+          >ABOUT</a
+        >
+        <a
+          href="./pages/projects.html"
+          class="p-4 rounded-lg hover:bg-purple-500"
+          >PROJECTS</a
+        >
+        <a href="./pages/resume.html" class="p-4 rounded-lg hover:bg-purple-500"
+          >RESUME</a
+        >
       </div>
     </nav>
 
     <div
-      class="flex items-center justify-center h-screen bg-purple-700 bg-center bg-no-repeat"
+      class="flex items-center justify-center flex-grow bg-center bg-repeat"
       style="background-image: url('./images/tech.jpeg')"
     >
       <div
@@ -50,7 +61,8 @@
         <h1
           class="text-4xl duration-300 cursor-default md:text-8xl sm:text-4xl mb-10-purple-600 hover:text-purple-600"
         >
-          <a class="text-yellow-600">TOMMY</a><a class="text-purple-700">NGO</a>
+          <a class="text-purple-700">MY</a
+          ><a class="text-yellow-600">PORTFOLIO</a>
         </h1>
         <h2
           class="mt-2 text-white break-normal my lg:text-3xl md:text-xl align-center hover:scale-110"
@@ -101,9 +113,6 @@
         </div>
       </div>
     </div>
-    <footer
-      class="justify-center w-full h-16 text-center text-white from-purple-600 to-yellow-600 bg-gradient-to-r"
-    ></footer>
     <script src="app.js"></script>
   </body>
 </html>
