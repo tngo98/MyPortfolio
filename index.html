@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/public/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -11,13 +11,10 @@
     />
     <title>Home</title>
   </head>
-  <body
-    class="flex flex-col min-h-screen"
-    style="font-family: 'Roboto', sans-serif"
-  >
+  <body class="flex flex-col" style="font-family: 'Roboto', sans-serif">
     <nav
       role="navigation"
-      class="relative flex items-center justify-between h-16 text-white from-purple-600 to-yellow-600 bg-gradient-to-r"
+      class="relative flex items-center justify-between h-16 text-white from-green-600 to-gray-400 bg-gradient-to-r"
     >
       <a href="index.html" class="pl-6 text-3xl font-bold">TOMMY NGO</a>
       <div class="px-4 cursor-pointer md:hidden" id="bars">
@@ -37,39 +34,34 @@
         </svg>
       </div>
       <div class="hidden pr-6 md:block" id="menu">
-        <a
-          href="./public/pages/about.html"
-          class="p-4 rounded-lg hover:bg-purple-500"
+        <a href="./pages/about.html" class="p-4 rounded-lg hover:bg-green-500"
           >ABOUT</a
         >
         <a
-          href="./public/pages/projects.html"
-          class="p-4 rounded-lg hover:bg-purple-500"
+          href="./pages/projects.html"
+          class="p-4 rounded-lg hover:bg-green-500"
           >PROJECTS</a
         >
-        <a
-          href="./public/pages/resume.html"
-          class="p-4 rounded-lg hover:bg-purple-500"
+        <a href="./pages/resume.html" class="p-4 rounded-lg hover:bg-green-500"
           >RESUME</a
         >
       </div>
     </nav>
 
     <div
-      class="flex items-center justify-center flex-grow min-h-screen bg-center bg-repeat"
-      style="background-image: url('./public/images/tech.jpeg')"
+      class="flex items-center justify-center flex-grow min-h-screen bg-white bg-center bg-no-repeat"
+      style="background-image: url('../images/tree.svg')"
     >
       <div
-        class="p-8 pb-16 m-5 font-bold text-center bg-purple-700 bg-opacity-50 rounded-lg"
+        class="p-10 m-2 font-bold text-center bg-green-800 rounded-lg bg-opacity-40"
       >
         <h1
-          class="text-4xl duration-300 cursor-default md:text-8xl sm:text-4xl mb-10-purple-600 hover:text-purple-600"
+          class="text-4xl duration-300 cursor-default md:text-8xl sm:text-4xl hover:text-purple-600"
         >
-          <a class="text-purple-700">MY</a
-          ><a class="text-yellow-600">PORTFOLIO</a>
+          <a class="text-green-500">MY</a><a class="text-white">PORTFOLIO</a>
         </h1>
         <h2
-          class="mt-2 text-white break-normal my lg:text-3xl md:text-xl align-center hover:scale-110"
+          class="mt-2 text-white break-normal lg:text-3xl md:text-xl align-center"
         >
           JavaScript | C# | C++ | SQL | HTML | CSS | PHP
         </h2>
@@ -118,8 +110,8 @@
       </div>
     </div>
     <footer
-      class="relative bottom-0 justify-center w-full h-16 text-center text-white from-purple-600 to-yellow-600 bg-gradient-to-r"
+      class="relative bottom-0 justify-center w-full h-16 text-center text-white from-green-600 to-gray-400 bg-gradient-to-r"
     ></footer>
-    <script src="app.js"></script>
   </body>
+  <script src="./app.js"></script>
 </html>
