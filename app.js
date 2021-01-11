@@ -10,7 +10,7 @@ bars.addEventListener("click", () => {
       "flex",
       "flex-col",
       "text-center",
-      "bg-green-500",
+      "bg-blue-600",
       "w-full",
       "absolute",
       "top-16"
@@ -29,7 +29,7 @@ window.addEventListener("resize", () => {
       "flex",
       "flex-col",
       "text-center",
-      "bg-green-500",
+      "bg-blue-600",
       "w-full",
       "absolute",
       "top-16"
