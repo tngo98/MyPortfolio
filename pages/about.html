@@ -19,7 +19,174 @@
     <title>About</title>
   </head>
   <body style="font-family: 'Roboto', sans-serif">
-    <nav
+    <div class="relative min-h-screen">
+      <nav
+        role="navigation"
+        class="relative flex items-center justify-between h-16 text-white bg-blue-600 shadow-lg bg-gradient-to-r"
+      >
+        <a href="../index.html" class="p-6 text-3xl font-bold">TOMMY NGO</a>
+        <div class="px-4 cursor-pointer md:hidden" id="bars">
+          <svg
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </div>
+        <div class="hidden pr-6 md:block" id="menu">
+          <a href="./about.html" class="p-4 rounded-lg hover:bg-blue-500"
+            >ABOUT</a
+          >
+          <a href="./projects.html" class="p-4 rounded-lg hover:bg-blue-500"
+            >PROJECTS</a
+          >
+          <a href="./resume.html" class="p-4 rounded-lg hover:bg-blue-500"
+            >RESUME</a
+          >
+        </div>
+      </nav>
+      <div class="pb-16">
+        <div
+          class="flex flex-col items-center justify-center p-8 text-center text-white bg-blue-700 bg-opacity-40"
+        >
+          <img
+            src="../images/me.webp"
+            class="w-3/4 mt-2 mb-4 border border-blue-600 rounded-lg shadow-lg md:w-2/4 lg:w-2/6"
+            alt="Picture of Tommy"
+          />
+          <h1 class="text-2xl uppercase text-bold">About Me</h1>
+          <p>
+            Welcome to my portfolio! My name is Tommy Ngo and I am a 2nd-year
+            software engineering student at Conestoga College. My objective in
+            life is to always bring positivity into my life and those around me.
+            I am a very outgoing person as I love to meet new people in order to
+            build worth-while experiences. For the year of 2021, I am hoping to
+            land a co-op job with a company that will allow me to express the
+            most of my abilities and of course, learn more. Please go check out
+            my projects and resume pages to see what I'm all about!
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col flex-wrap justify-center p-8 text-blue-600 md:flex-row"
+        >
+          <div class="m-6 w-52">
+            <h1 class="font-bold uppercase">Favourite Programming Languages</h1>
+            <p>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>C#</li>
+            </p>
+          </div>
+
+          <div class="m-6 w-44">
+            <h1 class="font-bold uppercase">Languages I Can Speak</h1>
+            <p>
+              <li>English</li>
+              <li>Vietnamese</li>
+            </p>
+          </div>
+
+          <div class="m-6">
+            <h1 class="font-bold uppercase">Hobbies</h1>
+            <p>
+              <li>Travelling</li>
+              <li>Making Music</li>
+              <li>Anime</li>
+              <li>Powerlifting</li>
+            </p>
+          </div>
+
+          <div class="m-6">
+            <h1 class="font-bold uppercase">Favourite Food</h1>
+            <p>
+              <li>Pho Noodle Soup</li>
+              <li>Sushi</li>
+              <li>Korean Corn Dogs</li>
+              <li>Biryani</li>
+            </p>
+          </div>
+
+          <div class="m-6">
+            <h1 class="font-bold uppercase">Dream Vacation</h1>
+            <p>
+              <li>Japan</li>
+              <li>Hawaii</li>
+              <li>India</li>
+              <li>Korea</li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer
+        class="absolute bottom-0 justify-center w-full h-16 text-center text-white bg-blue-600"
+      >
+        <div class="inline-block p-1 m-2 text-center">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/tngo98"
+            class="float-left"
+            ><span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-github"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#ffffff"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                /></svg></span
+          ></a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/tngo98/"
+            class="float-left"
+            ><span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-linkedin"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#ffffff"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <line x1="8" y1="11" x2="8" y2="16" />
+                <line x1="8" y1="8" x2="8" y2="8.01" />
+                <line x1="12" y1="16" x2="12" y2="11" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg></span
+          ></a>
+        </div>
+      </footer>
+    </div>
+    <script src="../app.js"></script>
+  </body>
+</html>
+
+<!-- <nav
       role="navigation"
       class="relative flex items-center justify-between h-16 text-white from-green-600 to-gray-400 bg-gradient-to-r"
     >
@@ -52,7 +219,7 @@
         >
       </div>
     </nav>
-    <!-- Hero Section -->
+
     <div class="relative min-h-screen text-center bg-white">
       <div class="flex flex-wrap items-center justify-center pb-16 m-4">
         <div
@@ -232,7 +399,4 @@
               <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg></span
         ></a>
       </div>
-    </footer>
-    <script src="../app.js"></script>
-  </body>
-</html>
+    </footer> -->

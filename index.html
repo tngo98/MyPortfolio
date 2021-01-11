@@ -22,60 +22,81 @@
     <meta name="theme-color" content="#ffffff" />
     <title>Home</title>
   </head>
-  <body class="flex flex-col" style="font-family: 'Roboto', sans-serif">
-    <nav
-      role="navigation"
-      class="relative flex items-center justify-between h-16 text-white from-green-600 to-gray-400 bg-gradient-to-r"
-    >
-      <a href="index.html" class="p-6 text-3xl font-bold">TOMMY NGO</a>
-      <div class="px-4 cursor-pointer md:hidden" id="bars">
-        <svg
-          class="w-8 h-8"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          ></path>
-        </svg>
-      </div>
-      <div class="hidden pr-6 md:block" id="menu">
-        <a href="./pages/about.html" class="p-4 rounded-lg hover:bg-green-500"
-          >ABOUT</a
-        >
-        <a
-          href="./pages/projects.html"
-          class="p-4 rounded-lg hover:bg-green-500"
-          >PROJECTS</a
-        >
-        <a href="./pages/resume.html" class="p-4 rounded-lg hover:bg-green-500"
-          >RESUME</a
-        >
-      </div>
-    </nav>
-
-    <div
-      class="flex items-center justify-center flex-grow min-h-screen bg-white bg-center bg-no-repeat"
-      style="background-image: url('../images/tree.svg')"
-    >
-      <div
-        class="p-10 m-2 font-bold text-center bg-green-800 rounded-lg bg-opacity-40"
+  <body style="font-family: 'Roboto', sans-serif">
+    <div class="relative min-h-screen bg-white bg-center bg-no-repeat">
+      <nav
+        role="navigation"
+        class="relative flex items-center justify-between h-16 text-white bg-blue-600 shadow-lg bg-gradient-to-r"
       >
-        <h1
-          class="text-4xl duration-300 cursor-default md:text-8xl sm:text-4xl hover:text-purple-600"
+        <a href="index.html" class="p-6 text-3xl font-bold">TOMMY NGO</a>
+        <div class="px-4 cursor-pointer md:hidden" id="bars">
+          <svg
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </div>
+        <div class="hidden pr-6 md:block" id="menu">
+          <a href="./pages/about.html" class="p-4 rounded-lg hover:bg-blue-500"
+            >ABOUT</a
+          >
+          <a
+            href="./pages/projects.html"
+            class="p-4 rounded-lg hover:bg-blue-500"
+            >PROJECTS</a
+          >
+          <a href="./pages/resume.html" class="p-4 rounded-lg hover:bg-blue-500"
+            >RESUME</a
+          >
+        </div>
+      </nav>
+      <div class="pb-16">
+        <div
+          class="relative p-10 m-auto font-bold text-center bg-blue-700 shadow-lg bg-opacity-40"
         >
-          <a class="text-green-500">MY</a><a class="text-white">PORTFOLIO</a>
-        </h1>
-        <h2
-          class="mt-2 text-white break-normal lg:text-3xl md:text-xl align-center"
+          <h1
+            class="text-4xl duration-300 cursor-default md:text-8xl sm:text-4xl hover:text-purple-600"
+          >
+            <a class="text-blue-600">MY</a><a class="text-white">PORTFOLIO</a>
+          </h1>
+          <h2
+            class="mt-2 text-white break-normal lg:text-3xl md:text-xl align-center"
+          >
+            JavaScript | C# | C++ | SQL | HTML | CSS | PHP
+          </h2>
+        </div>
+
+        <div class="flex justify-center p-10 text-center text-blue-600">
+          <image class="lg:w-1/5 md:w-2/4" src="./images/lightbulb.svg"></image>
+        </div>
+
+        <div
+          class="relative p-10 m-auto text-center text-blue-600 align-bottom"
         >
-          JavaScript | C# | C++ | SQL | HTML | CSS | PHP
-        </h2>
+          <h1
+            class="text-2xl duration-300 cursor-default md:text-3xl sm:text-sm"
+          >
+            <a
+              >The true sign of intelligence is not knowledge but
+              <b>imagination</b>.</a
+            >
+            <br />
+            - Albert Einstein
+          </h1>
+        </div>
+      </div>
+      <footer
+        class="absolute bottom-0 justify-center w-full h-16 text-center text-white bg-blue-600 bg-gradient-to-r"
+      >
         <div class="inline-block p-1 mt-2 text-center">
           <a href="https://github.com/tngo98" class="float-left"
             ><span
@@ -118,11 +139,8 @@
                 <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg></span
           ></a>
         </div>
-      </div>
+      </footer>
     </div>
-    <footer
-      class="relative bottom-0 justify-center w-full h-16 text-center text-white from-green-600 to-gray-400 bg-gradient-to-r"
-    ></footer>
   </body>
   <script src="./app.js"></script>
 </html>
