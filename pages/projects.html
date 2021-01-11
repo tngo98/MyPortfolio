@@ -21,137 +21,145 @@
     <div class="relative min-h-screen">
       <nav
         role="navigation"
-        class="relative flex items-center justify-between h-16 text-white bg-blue-600 shadow-lg bg-gradient-to-r"
+        class="relative z-10 h-16 text-white bg-blue-600 shadow-lg bg-gradient-to-r"
       >
-        <a href="../index.html" class="p-6 text-3xl font-bold">TOMMY NGO</a>
-        <div class="px-4 cursor-pointer md:hidden" id="bars">
-          <svg
-            class="w-8 h-8"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-          </svg>
-        </div>
-        <div class="hidden pr-6 md:block" id="menu">
-          <a href="./about.html" class="p-4 rounded-lg hover:bg-blue-500"
-            >ABOUT</a
-          >
-          <a href="./projects.html" class="p-4 rounded-lg hover:bg-blue-500"
-            >PROJECTS</a
-          >
-          <a href="./resume.html" class="p-4 rounded-lg hover:bg-blue-500"
-            >RESUME</a
-          >
+        <div
+          class="flex items-center justify-between max-w-screen-lg mx-auto xl:max-w-screen-xl"
+        >
+          <a href="../index.html" class="p-4 text-3xl font-bold">TOMMY NGO</a>
+          <div class="px-4 cursor-pointer md:hidden" id="bars">
+            <svg
+              class="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+          <div class="hidden md:block" id="menu">
+            <a href="./about.html" class="p-4 rounded-lg hover:bg-blue-500"
+              >ABOUT</a
+            >
+            <a href="./projects.html" class="p-4 rounded-lg hover:bg-blue-500"
+              >PROJECTS</a
+            >
+            <a href="./resume.html" class="p-4 rounded-lg hover:bg-blue-500"
+              >RESUME</a
+            >
+          </div>
         </div>
       </nav>
       <div class="pb-16">
         <div
           class="flex flex-wrap items-center justify-center p-8 text-center text-white bg-blue-700 shadow-lg bg-opacity-40"
         >
-          <div class="m-2 rounded-md shadow-lg w-96 h-4/5">
-            <img
-              src="../images/weather.webp"
-              class="w-full rounded-t-md"
-              alt="..."
-            />
-            <div class="h-full p-4 bg-blue-600 rounded-b-md">
-              <h5 class="mb-2 font-bold tracking-widest text-white uppercase">
-                Find Weather
-              </h5>
-              <p class="text-white">
-                Simple yet effective weather checking application created with
-                Node.js and Tailwind CSS. This application allows the user to
-                search any address around the world and receive a weather
-                forecast for that location.
-                <br />
-                <br />
-                <br />
-                <br />
-              </p>
-              <div class="flex-wrap">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://tngo-find-weather.herokuapp.com/"
-                  class="inline-block px-1 py-2 mx-1 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
-                  >LIVE DEMO</a
-                >
+          <div
+            class="flex flex-col flex-wrap justify-center max-w-screen-xl md:flex-row"
+          >
+            <div class="m-2 rounded-md shadow-lg w-96 h-4/5">
+              <img
+                src="../images/weather.webp"
+                class="w-full rounded-t-md"
+                alt="..."
+              />
+              <div class="p-4 bg-blue-600 rounded-b-md">
+                <h5 class="mb-2 font-bold tracking-widest text-white uppercase">
+                  Find Weather
+                </h5>
+                <p class="text-white">
+                  Simple yet effective weather checking application created with
+                  Node.js and Tailwind CSS. This application allows the user to
+                  search any address around the world and receive a weather
+                  forecast for that location.
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </p>
+                <div class="flex-wrap">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://tngo-find-weather.herokuapp.com/"
+                    class="inline-block px-1 py-2 mx-1 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
+                    >LIVE DEMO</a
+                  >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/SemiDoge/SQ-TeamClack-TermProj"
+                    class="inline-block px-4 py-2 mx-1 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
+                    >GITHUB</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="m-2 rounded-md shadow-lg w-96 h-4/5">
+              <img
+                src="../images/TMSProject.webp"
+                class="w-full rounded-t-md"
+                alt="..."
+              />
+              <div class="p-4 bg-blue-600 rounded-b-md">
+                <h5 class="mb-2 font-bold tracking-widest text-white uppercase">
+                  TMS Order System
+                </h5>
+                <p class="text-white">
+                  WPF Application that uses C# .NET and MySQL and is used as an
+                  order management system that allows 3 levels of users to
+                  manage various orders within a database. The users may also
+                  experience a more modern and colourful UI/UX that was created
+                  using Materialize CSS.
+                  <br />
+                  <br />
+                  <br />
+                </p>
                 <a
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/SemiDoge/SQ-TeamClack-TermProj"
-                  class="inline-block px-4 py-2 mx-1 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
+                  class="inline-block px-4 py-2 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
                   >GITHUB</a
                 >
               </div>
             </div>
-          </div>
 
-          <div class="m-2 rounded-md shadow-lg w-96 h-4/5">
-            <img
-              src="../images/TMSProject.webp"
-              class="w-full rounded-t-md"
-              alt="..."
-            />
-            <div class="h-full p-4 bg-blue-600 rounded-b-md">
-              <h5 class="mb-2 font-bold tracking-widest text-white uppercase">
-                TMS Order System
-              </h5>
-              <p class="text-white">
-                WPF Application that uses C# .NET and MySQL and is used as an
-                order management system that allows 3 levels of users to manage
-                various orders within a database. The users may also experience
-                a more modern and colourful UI/UX that was created using
-                Materialize CSS.
-                <br />
-                <br />
-                <br />
-              </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/SemiDoge/SQ-TeamClack-TermProj"
-                class="inline-block px-4 py-2 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
-                >GITHUB</a
-              >
-            </div>
-          </div>
-
-          <div class="m-2 rounded-md shadow-lg w-96 h-4/5">
-            <img
-              src="../images/Speculate.webp"
-              class="w-full rounded-t-md"
-              alt="..."
-            />
-            <div class="p-4 bg-blue-600 rounded-b-md">
-              <h5 class="mb-2 font-bold tracking-widest text-white uppercase">
-                Speculate
-              </h5>
-              <p class="text-white">
-                Web game application that uses C#, ASP.NET, HTML, and CSS and is
-                based on the game Hi-Lo. This web application allows the user to
-                play a fun game of Hi-Lo while also letting them experience a
-                bright and modern UI/UX. There is also a score-based system in
-                which the user starts at 100 points and will be deducted as the
-                game goes on.
-                <br />
-                <br />
-              </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/tngo98/Speculate"
-                class="inline-block px-4 py-2 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
-                >GITHUB</a
-              >
+            <div class="m-2 rounded-md shadow-lg w-96 h-4/5">
+              <img
+                src="../images/Speculate.webp"
+                class="w-full rounded-t-md"
+                alt="..."
+              />
+              <div class="p-4 bg-blue-600 rounded-b-md">
+                <h5 class="mb-2 font-bold tracking-widest text-white uppercase">
+                  Speculate
+                </h5>
+                <p class="text-white">
+                  Web game application that uses C#, ASP.NET, HTML, and CSS and
+                  is based on the game Hi-Lo. This web application allows the
+                  user to play a fun game of Hi-Lo while also letting them
+                  experience a bright and modern UI/UX. There is also a
+                  score-based system in which the user starts at 100 points and
+                  will be deducted as the game goes on.
+                  <br />
+                  <br />
+                </p>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/tngo98/Speculate"
+                  class="inline-block px-4 py-2 mt-4 text-blue-600 transform bg-white border rounded-md shadow-lg hover:scale-110"
+                  >GITHUB</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -159,22 +167,24 @@
         <div
           class="flex flex-col flex-wrap justify-center p-8 text-blue-600 md:flex-row"
         >
-          <div>
-            <h1 class="mb-2 font-bold uppercase">
-              Professional Development and Certification:
-            </h1>
-            <li>
-              The Complete JavaScript Course 2021: From Zero to Expert! |
-              Created by Jonas Schmedtmann
-            </li>
-            <li>
-              The Complete Node.js Developer Course (3rd Edition) | Created by
-              Andrew Mead, Rob Percival <br />
-            </li>
-            <li>
-              JavaScript Algorithms and Data Structures Masterclass | Created by
-              Colt Steele
-            </li>
+          <div class="flex flex-col items-center max-w-screen-xl">
+            <div>
+              <h1 class="mb-2 font-bold uppercase">
+                Professional Development and Certification:
+              </h1>
+              <li>
+                The Complete JavaScript Course 2021: From Zero to Expert! |
+                Created by Jonas Schmedtmann
+              </li>
+              <li>
+                The Complete Node.js Developer Course (3rd Edition) | Created by
+                Andrew Mead, Rob Percival <br />
+              </li>
+              <li>
+                JavaScript Algorithms and Data Structures Masterclass | Created
+                by Colt Steele
+              </li>
+            </div>
           </div>
         </div>
       </div>
